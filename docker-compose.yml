@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  claude-local-api:
+    build: .
+    container_name: claude_local_api
+    ports:
+      - "3000:3000"
+    environment:
+      - ANTHROPIC_BASE_URL=https://api.z.ai/api/paas/v4/
+    restart: unless-stopped
