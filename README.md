@@ -57,7 +57,7 @@ claude-api/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/claude-api.git
+   git clone https://github.com/Thamindu-Dev/claude-api.git
    cd claude-api
    ```
 
